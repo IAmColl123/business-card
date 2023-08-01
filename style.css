@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 400px;
+    color: #2b2839;
+    background-color: #ddebf8;
+    border-bottom: 5px solid #d8cefe;
+}
+.card .avatar {
+    width: 150px;
+}
+.card .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+/* .blue-border {
+    border: 1px dotted blue;
+} */
